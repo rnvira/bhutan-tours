@@ -1,0 +1,190 @@
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>About us</title>
+<style>
+img 
+{
+  float: right;
+}
+
+ #top-nav {
+ height: 52px; 
+ border-top: solid medium #006600; 
+ padding: 2px;
+ }
+a
+{
+  text-decoration:none;
+  color:blue;
+}
+ #main-content
+ { 
+ margin: 150px 0px 0px 100px;
+ height:45px; 
+ width:100%;
+ margin: 125px 10px 0px 100px;
+ }
+
+				
+ 
+ li
+ {
+ font-size: 20px;
+ font-weight: 400;
+ letter-spacing: .5px;
+ text-transform: uppercase;
+ padding-left: 50px;
+ display:inline;
+ line-height:45px;	
+ }
+ 
+ 
+ 
+ #container 
+ {
+ 
+ border: 1px solid;
+ border-radius: 25px;
+ margin:0px 0px 10px;
+ position: absolute;
+ height: auto;	
+ width: 99%;
+
+ }
+	
+  
+  
+ #container2
+ {
+ float: right;
+ height: 350px;
+ // border: 1px solid;
+ width:68%;
+ margin: 0px 0px 0px;
+ }
+  
+ #container3 
+ {
+ border: 2px solid;
+ border-radius: 25px;
+ margin: 440px 0px 10px;
+ position: absolute;
+ height: auto;
+ width: 99%;
+ }
+  
+    
+ #footer 
+ { 
+ border-top: 2px solid black; 
+ padding-left: 10px; 
+ text-align: center;
+ margin: 110px 0px 10px;
+ } 
+  
+ </style>
+<script>
+ function validate()
+ { 
+   var x=document.forms["feedback"]["fname"].value;
+   if(x=="" )
+   {
+     alert("Invalid first name");
+     return false;
+   }
+   
+   var x=document.forms["feedback"]["lname"].value;
+   if(x=="" )
+   {
+     alert("Invalid last name");
+     return false;
+   }
+
+   var x=document.forms["feedback"]["mail"].value;
+   var atposition=x.indexOf("@");  
+   var dotposition=x.lastIndexOf(".");  
+   if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length)
+   {  
+	alert("Please enter a valid e-mail address");  
+ 	return false;  
+   }  
+    if (x == "")
+    {
+       	alert("email must be filled out");
+       	return false;
+    }
+ }
+</script>
+</head> 
+<body  style="background-color:powderblue;">
+ <div id="top-nav">
+<img src="bhutan.jpg" width=250px height=Auto>
+<a href="bhutanhome.html"><img src="bhutandragon.png" style="float:left"></a>
+<h1 style=font-size:500% align="center" >BHUTAN TOURISM</h1>
+</div> 
+
+<div id="main-content"> 
+<li><a href="bhutanhome.html">HOME</a></li>
+          <li><a href="discover.html">DISCOVER</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="impdates.html">IMPDATES</a></li>
+          <li><a href="contactinfo.html">CONTACTINFO</a></li>
+<ul>
+          
+</ul>
+</div> 
+			
+<div id="container">
+
+</div>
+ 
+  <h2>FEEDBACK OF VISITING BHUTAN</h2><br>
+ <img src="bhutanfeed.jpg" style="float:right;height:400px;width:700px;">
+ <form name="feedback" method="post" onsubmit=" return validate()">
+ First Name: 
+ <input type="text" name="fname">
+ <br><br>
+ Last Name: 
+ <input type="text" name="lname">
+ <br><br>
+ E-mail id:
+ <input type="text" name="mail">
+ <br><br>
+ You visited Bhutan on (or are going to):
+  <input type="date" name="visit">
+ <br><br>
+ Were you unhappy visiting  any of these cities?
+ <select name="unhappy">
+  <option>No, I was happy</option>
+  <option>Thimphu</option>
+  <option>Paro</option>
+  <option>Punakha</option>
+  <option>Phuntsholing</option>
+  <option>Jakar</option>
+  <option>Tsonga</option>
+</select>
+<br><br>
+ Experience in Bhutan: 
+ <input type="radio" name="experience">Excellent
+ <input type="radio" name="experience">Good
+ <input type="radio" name="experience">Average
+ <input type="radio" name="experience">Not so good
+ <input type="radio" name="experience">Bad
+ <br><br>
+ Your impression on Bhutan:
+ <textarea rows="4" cols="50"></textarea>
+ <br><br>
+ <input type="submit" value="Submit">
+ </form>
+ <div id="footer">
+          <ul> 
+          <li><a href="bhutanhome.html">HOME</a></li>
+          <li><a href="policy.html">POLICY</a></li>
+          <li><a href="aboutus.html">ABOUT US</a></li>
+          <li><a href="downloads.html">DOWNLOADS</a></li>
+          </ul>
+ </div>
+</body>
+</html>
