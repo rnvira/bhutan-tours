@@ -1,242 +1,266 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>About</title>
+  <head>
+    <meta charset="utf-8" />
+    <title>About</title>
 
-<style>
+    <style>
+      img {
+        float: right;
+        display: flex;
+      }
 
-img 
-{
-  float: right;
-}
+      #top-nav {
+        height: 52px;
+        border-top: solid medium #006600;
+        padding: 2px;
+      }
+      a {
+        text-decoration: none;
+        color: blue;
+      }
+      #main-content {
+        margin: 150px 0px 0px 100px;
+        height: 45px;
+        width: 100%;
+        margin: 125px 10px 0px 100px;
+      }
 
- #top-nav {
- height: 52px; 
- border-top: solid medium #006600; 
- padding: 2px;
- }
-a
-{
-  text-decoration:none;
-  color:blue;
-}
- #main-content
- { 
- margin: 150px 0px 0px 100px;
- height:45px; 
- width:100%;
- margin: 125px 10px 0px 100px;
- }
-				
- 
- li
- {
- font-size: 20px;
- font-weight: 400;
- letter-spacing: .5px;
- text-transform: uppercase;
- padding-left: 50px;
- display:inline;
- line-height:45px;	
- }
+      li {
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        padding-left: 50px;
+        display: inline;
+        line-height: 45px;
+      }
+      a:hover {
+        background-color: yellow;
+      }
 
- #container 
- {
- border: 1px solid;
- border-radius: 25px;
- margin:0px 0px 10px;
- position: absolute;
- height: auto;	
- width: 99%;
- }
- #footer 
- { 
- border-top: 2px solid black; 
- padding-left: 10px; 
- text-align: center;
- margin: 210px 0px 10px;
- } 
+      #container {
+        border: 1px solid;
+        border-radius: 25px;
+        margin: 0px 0px 10px;
+        position: absolute;
+        height: auto;
+        width: 99%;
+      }
+      #footer {
+        border-top: 2px solid black;
+        padding-left: 10px;
+        text-align: center;
+        margin: 210px 0px 10px;
+      }
 
-.flora
-{
-  background-color:green;
-  width:100%;
-  margin:10px 0px 0px 0px;
-  text-align:center;
-}
-.fauna
-{
-  background-color:red;
-  width:100%;
-  margin:10px 0px 0px 0px;
-  text-align:center;
-}
+      .flora {
+        background-color: cyan;
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+        text-align: center;
+      }
+      .fauna {
+        background-color: cyan;
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+        text-align: center;
+      }
 
-.climate
-{
-  background-color: #1a1aff;
-  width:100%;
-  margin:10px 0px 0px 0px;
-  text-align:center;
-}
+      .climate {
+        background-color: cyan;
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+        text-align: center;
+      }
 
-.geography
-{
-  background-color: #e69900;
-  width:100%;
-  margin:10px 0px 0px 0px;
-  text-align:center;
-}
+      .geography {
+        background-color: cyan;
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+        text-align: center;
+      }
 
-.economy
-{
-  background-color: #ff751a;
-  width:100%;
-  margin:10px 0px 0px 0px;
-  text-align:center;
-}
+      .economy {
+        background-color: cyan;
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+        text-align: center;
+      }
 
-.people
-{
-  background-color: #c4ff4d;
-  width:100%;
-  margin:10px 0px 0px 0px;
-  text-align:center;
-}
+      .people {
+        background-color: cyan;
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+        text-align: center;
+      }
 
-.food
-{
-  background-color: #ff3333;
-  width:100%;
-  margin:10px 0px 0px 0px;
-  text-align:center;
-}
-p{
-display:none;
-}
-div:hover p
-{
-display:block;
-}
+      .food {
+        background-color: cyan;
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+        text-align: center;
+      }
+      p {
+        display: none;
+      }
+      div:hover p {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="top-nav">
+      <img src="bhutan.jpg" width="250px" height="Auto" />
+      <a href="bhutanhome.html"
+        ><img src="bhutandragon.png" style="float: left"
+      /></a>
+      <h1 style="font-size: 500%; text-align: center">BHUTAN TOURISM</h1>
+    </div>
 
-</style>
-</head>
-<body style="background-color:powderblue;">
+    <div id="main-content">
+      <ul>
+        <li><a href="bhutanhome.html">HOME</a></li>
+        <li><a href="discover.html">DISCOVER</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="impdates.html">IMPDATES</a></li>
+        <li><a href="contactinfo.html">CONTACTINFO</a></li>
+      </ul>
+    </div>
 
-<div id="top-nav">
-<img src="bhutan.jpg" width=250px height=Auto>
-<a href="bhutanhome.html"><img src="bhutandragon.png" style="float:left"></a>
-<h1 style=font-size:500% align="center" >BHUTAN TOURISM</h1>
-</div> 
+    <div id="container"></div>
 
-<div id="main-content"> 
+    <div class="flora">
+      <h3>FLORA</h3>
+      <p>
+        Forest types in Bhutan are; Fir Forests, Mixed Conifer Forest, Blue Pine
+        Forest, Chirpine Forest, Broadleaf mixed with Conifer, Upland Hardwood
+        Forest, Lowland Hardwood Forest, and Tropical Lowland Forests. Almost
+        60% of the plant species that is found in the eastern Himalayan region
+        can be found in Bhutan as well.
+      </p>
+    </div>
 
-<ul>
-          <li><a href="bhutanhome.html">HOME</a></li>
-          <li><a href="discover.html">DISCOVER</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="impdates.html">IMPDATES</a></li>
-          <li><a href="contactinfo.html">CONTACTINFO</a></li>
-</ul>
-</div>
+    <div class="fauna">
+      <h3>FAUNA</h3>
+      <p>
+        Bhutan has some of the most rugged terrain in the world and few
+        remaining biodiversity hotspots in Asia. The geographical kingdom of
+        Bhutan offers great biodiversity and ecosystems for unique and rare
+        wildlife, habitat of wild Bhutan provide shelter for the Himalayan black
+        bear, red panda,Muntjac,sloth bear and Tibetan wolf. Well known and
+        keytone wild animals of Bhutan are Asian Elephant, Tiger, Red
+        Panda,Himalayan Black Bear, Black Necked Cranes,Himalayan Musk
+        Deer,Asiatic Black Bear, Sloth Bear,Leopards and Gray Wolf. In addition,
+        Bhutan is also home to the tiger, one-horned rhino, red panda and the
+        Tibetan wolf.
+      </p>
+    </div>
 
-<div id="container">
-</div>
+    <div class="climate">
+      <h3>CLIMATE</h3>
+      <p>
+        Bhutan has a hot and humid subtropical climate that is fairly unchanging
+        throughout the year. Temperatures can vary between 15-30 degrees Celsius
+        (59- 86 degrees Fahrenheit). In the Central parts of the country which
+        consists of temperate and deciduous forests, the climate is more
+        seasonal with warm summers and cool and dry winters. In the far Northern
+        reaches of the kingdom, the weather is much colder during winter.
+        Mountain peaks are perpetually covered in snow and lower parts are still
+        cool in summer owing to the high altitude terrain.
+      </p>
+    </div>
 
-<div class="flora">
- <h3>FLORA</h3>
- <p>Forest types in Bhutan are; Fir Forests, Mixed Conifer Forest, Blue Pine Forest, Chirpine Forest, Broadleaf mixed with Conifer, 
-    Upland Hardwood Forest, Lowland Hardwood Forest, and Tropical Lowland Forests.
-    Almost 60% of the plant species that is found in the eastern Himalayan region can be found in Bhutan as well.
- </p>
-</div>
+    <div class="geography">
+      <h3>GEOGRAPHY</h3>
+      <p>
+        The kingdom of Bhutan lies deep in the eastern Himalayas. It is
+        surrounded by the Tibet Autonomous Region (TAR) of China to the north,
+        and the Indian territories of Assam and West Bengal to the south,
+        Arunachal Pradesh to the east and Sikkim to the west. The tiny
+        landlocked kingdom has a total area of about 47,000 square kilometers
+        and spreads between meridians 89E and 93E, and latitudes 27N and 29N.
+        Bhutan features three major geographic regions, namely, the high
+        Himalayas of the north, the hills and valleys of the interior, and the
+        foothills and plains of the south.
+      </p>
+    </div>
 
-<div class="fauna">
- <h3>FAUNA</h3>
- <p>Bhutan has some of the most rugged terrain in the world and few remaining biodiversity hotspots in Asia.
-   The geographical kingdom of Bhutan offers great biodiversity and ecosystems for unique and rare wildlife,
-   habitat of wild Bhutan provide shelter for the Himalayan black bear, red panda,Muntjac,sloth bear and Tibetan wolf.
-   Well known and keytone wild animals of Bhutan are Asian Elephant, Tiger, Red Panda,Himalayan Black Bear, 
-   Black Necked Cranes,Himalayan Musk Deer,Asiatic Black Bear, Sloth Bear,Leopards and Gray Wolf. 
-   In addition, Bhutan is also home to the tiger, one-horned rhino, red panda and the Tibetan wolf.
- </p>
-</div>
+    <div class="economy">
+      <h3>ECONOMY</h3>
+      <p>
+        While a large part of the Bhutanese population is still illiterate and
+        reside in rural areas with approximately 1 in 5 still living under the
+        poverty line, the majority of all Bhutanese have shelter and are
+        self-sufficient. Rapid modernization has brought about vast improvements
+        in the living standard of the Bhutanese people. All villages now have
+        access to basic amenities such as education, running water, basic
+        healthcare and are connected by roads and electricity. Even the most
+        remote villages have connection to the telecommunication network
+        including mobile phone service.
+      </p>
+    </div>
 
-<div class="climate">
- <h3>CLIMATE</h3>
- <p> Bhutan has a hot and humid subtropical climate that is fairly unchanging throughout the year. 
-    Temperatures can vary between 15-30 degrees Celsius (59- 86 degrees Fahrenheit). 
-    In the Central parts of the country which consists of temperate and deciduous forests, the climate is more seasonal with warm summers and cool and dry winters.
-    In the far Northern reaches of the kingdom, the weather is much colder during winter.
-    Mountain peaks are perpetually covered in snow and lower parts are still cool in summer owing to the high altitude terrain. 
- </p>
-</div>
+    <div class="people">
+      <h3>PEOPLE, SOCIETY & RELIGION</h3>
+      <p>
+        Bhutanese people can be generally categorized into three main ethnic
+        groups. The Tshanglas, Ngalops and the Lhotshampas. The other minority
+        groups are the Bumthaps and the Khengpas of Central Bhutan, the Kurtoeps
+        in Lhuentse, the Brokpas and the Bramis of Merak and Sakteng in eastern
+        Bhutan, the Doyas of Samtse and finally the Monpas of Rukha villages in
+        WangduePhodrang. Together the multiethnic Bhutanese population number
+        just over 700,000.
+        <br />
+        Bhutanese society is free of class or a caste system. Slavery was
+        abolished by the Third King Jigme Dorji Wangchuck in the early 1950s
+        through a royal edict. Though, a few organizations to empower women were
+        established in the past Bhutanese society has always maintained relative
+        gender equality. In general our nation is an open and a good-spirited
+        society.
+        <br />
+        The Bhutanese constitution guarantees freedom of religion and citizens
+        and visitors are free to practice any form of worship so long as it does
+        not impinge on the rights of others. Christianity, Hinduism and Islam
+        are also present in the country.
+      </p>
+    </div>
 
-<div class="geography">
- <h3>GEOGRAPHY</h3>
- <p>The kingdom of Bhutan lies deep in the eastern Himalayas. 
-    It is surrounded by the Tibet Autonomous Region (TAR) of China to the north, and the Indian territories of Assam and West Bengal to the south,
-    Arunachal Pradesh to the east and Sikkim to the west. The tiny landlocked kingdom has a total area of about 
-    47,000 square kilometers and spreads between meridians 89E and 93E, and latitudes 27N and 29N. 
-    Bhutan features three major geographic regions, namely, the high Himalayas of the north, the hills and valleys of the interior, 
-    and the foothills and plains of the south.
- </p>
-</div>
+    <div class="food">
+      <h3>FOOD</h3>
+      <p>
+        The most distinctive characteristic of Bhutanese cuisine is its
+        spiciness. Chillis are an essential part of nearly every dish and are
+        considered so important that most Bhutanese people would not enjoy a
+        meal that was not spicy. Rice forms the main body of most Bhutanese
+        meals. It is accompanied by one or two side dishes consisting of meat or
+        vegetables. Pork, beef and chicken are the meats that are eaten most
+        often. Vegetables commonly eaten include Spinach, pumpkins, turnips,
+        radishes, tomatoes, river weed, onions and green beans. Grains such as
+        rice, buckwheat and barley are also cultivated in various regions of the
+        country depending on the local climate.
+      </p>
+    </div>
+    <div class="container">
+      <img src="takin.jpg" height="183px" width="330px" />
+      <img src="flora_fauna.jpg" height="183px" width="330px" />
+      <img src="climate.jpg" height="183px" width="330px" />
+      <img src="people.jpg" height="183px" width="330px" />
+    </div>
 
-
-<div class="economy">
- <h3>ECONOMY</h3>
- <p>While a large part of the Bhutanese population is still illiterate and reside in rural areas with approximately 
-    1 in 5 still living under the poverty line, the majority of all Bhutanese have shelter and are self-sufficient. 
-    Rapid modernization has brought about vast improvements in the living standard of the Bhutanese people. 
-    All villages now have access to basic amenities such as education, running water, basic healthcare and are connected by roads and electricity. 
-    Even the most remote villages have connection to the telecommunication network including mobile phone service.
- </p>
-</div>
-
-
-<div class="people">
- <h3>PEOPLE, SOCIETY & RELIGION</h3>
- <p>Bhutanese people can be generally categorized into three main ethnic groups. The Tshanglas, Ngalops and the Lhotshampas.
-    The other minority groups are the Bumthaps and the Khengpas of Central Bhutan, the Kurtoeps in Lhuentse, 
-    the Brokpas and the Bramis of Merak and Sakteng in eastern Bhutan, the Doyas of Samtse and finally the Monpas of Rukha villages in WangduePhodrang. 
-    Together the multiethnic Bhutanese population number just over 700,000. 
-    <br>
-    Bhutanese society is free of class or a caste system. Slavery was abolished by the Third King Jigme Dorji Wangchuck 
-    in the early 1950s through a royal edict. Though, a few organizations to empower women were established in the 
-    past Bhutanese society has always maintained relative gender equality. 
-    In general our nation is an open and a good-spirited society.
-    <br>
-    The Bhutanese constitution guarantees freedom of religion and citizens and visitors are free to practice any form of 
-    worship so long as it does not impinge on the rights of others. 
-    Christianity, Hinduism and Islam are also present in the country.
- </p>
-</div>
-
-<div class="food">
- <h3>FOOD</h3>
- <p>The most distinctive characteristic of Bhutanese cuisine is its spiciness. 
-    Chillis are an essential part of nearly every dish and are considered so important that most Bhutanese people would not enjoy a meal that was not spicy.
-    Rice forms the main body of most Bhutanese meals. It is accompanied by one or two side dishes consisting of meat or vegetables. 
-    Pork, beef and chicken are the meats that are eaten most often. Vegetables commonly eaten include Spinach, pumpkins, turnips, 
-    radishes, tomatoes, river weed, onions and green beans. Grains such as rice, 
-    buckwheat and barley are also cultivated in various regions of the country depending on the local climate.
- </p>
-</div>
-<img src="takin.jpg" height="183px" width="330px">
-<img src="flora_fauna.jpg" height="183px" width="330px"> 
-<img src="climate.jpg" height="183px" width="330px">
-<img src="people.jpg" height="183px" width="330px"> 
-<div id="footer">
-          <ul> 
-          <li><a href="bhutanhome.html">HOME</a></li>
-          <li><a href="policy.html">POLICY</a></li>
-          <li><a href="aboutus.html">ABOUT US</a></li>
-          <li><a href="downloads.html">DOWNLOADS</a></li>
-          </ul>
-</div>
-
-</body>
+    <div id="footer" style="background-color: black">
+      <ul>
+        <li>
+          <a style="color: blanchedalmond" href="bhutanhome.html">HOME</a>
+        </li>
+        <li><a style="color: blanchedalmond" href="policy.html">POLICY</a></li>
+        <li>
+          <a style="color: blanchedalmond" href="aboutus.html">ABOUT US</a>
+        </li>
+        <li>
+          <a style="color: blanchedalmond" href="downloads.html">DOWNLOADS</a>
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
